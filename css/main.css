@@ -133,16 +133,13 @@ footer {
    .fa:hover {
       opacity: 0.7;
   }
-  /* reminder because we replaced it */
    .fa-facebook {
     background: #3B5998;
     color: white;
-    padding: 20px 25px; 
-  }  
+  }
    .fa-twitter {
     background: #55ACEE;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
    .fa-youtube {
     background: #bb0000;
@@ -157,6 +154,8 @@ footer {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
+ 
+ 
   .social-container {
     display: flex;
     justify-content: space-evenly;
