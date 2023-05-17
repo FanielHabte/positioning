@@ -96,6 +96,7 @@ footer {
     text-align:center;
  }
  
+ 
 /* Allows box to take up full space, ignoring padding/margin */
 * {
     box-sizing: border-box;
@@ -116,11 +117,21 @@ footer {
     clear: both;
   }
  
+ 
   @media all and (max-width:500px) {
     .my-column {
         width: 100%;
       }
  }
+ 
+  
+/* flexible image rules start here */
+
+.flexible img{   /* faniiiii*/
+    width:100%;
+ }
+
+ /* flexible image rules end here */
  
  .fa {
     padding: 20px;
@@ -136,10 +147,12 @@ footer {
    .fa-facebook {
     background: #3B5998;
     color: white;
+    padding: 20px 25px;
   }
    .fa-twitter {
     background: #55ACEE;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
    .fa-youtube {
     background: #bb0000;
@@ -155,13 +168,12 @@ footer {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
  
- 
   .social-container {
     display: flex;
     justify-content: space-evenly;
   }
  
-/* flexible image rules start here */
+ /* flexible image rules start here */
 
 
 .flexible img{
@@ -177,9 +189,7 @@ footer {
  
  /* flexible image rules end here */
  
-
-
-
+ 
 /* end positioning styles */
 /* DESKTOP */
 @media all and (min-width:1200px) {
